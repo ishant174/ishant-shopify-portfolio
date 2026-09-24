@@ -1,4 +1,4 @@
-const toggle = document.querySelector('.menu-toggle');
+const toggle = document.querySelector('.menu');
 const menu = document.querySelector('#menu');
 toggle.addEventListener('click', () => {
   const open = menu.classList.toggle('open');
